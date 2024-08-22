@@ -14,20 +14,20 @@ provider "spotify" {
   api_key = var.spotify_api_key
 }
 
-data "spotify_search_track" "by_artist" {
-  artist = "Dolly Parton"
-  #  album = "Jolene"
-  #  name  = "Early Morning Breeze"
-}
+
 
 resource "spotify_playlist" "playlist" {
-  name        = "Terraform Summer Playlist"
-  description = "This playlist was created by Terraform"
+  name        = "The Best of Ragga"
+  description = "This playlist contains the best 20 hits of my RAGGA playlist. The playlist was created with Terraform."
   public      = true
 
   tracks = [
-    data.spotify_search_track.by_artist.tracks[0].id,
-    data.spotify_search_track.by_artist.tracks[1].id,
-    data.spotify_search_track.by_artist.tracks[2].id,
+    "1WTuczRTn7aKpCPHxqsF9f", # Evil ways - Marcus Gad, Tribe
+    "4uOKFydzAejjSFqYbv1XPt", # Red Red Wine - UB40
+    "5O4erNlJ74PIF6kGol1ZrC", # Could You Be Loved - Bob Marley and The Wailers
+    "3VJTOIVyeGujUIo6P0DoTx", # Le rendez vous - L'Entourloop
+    "4JbMBbrm55qOW6lJwtKtfM", # Bob & Friends Over There - Ijahman Levi
+    ""
+
   ]
 }
