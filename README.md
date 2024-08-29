@@ -74,7 +74,7 @@ $ docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spo
 ```
 
 <div align="center">
-    <img src="assets/images/docker-run2.png" alt="docker-run" />
+    <img src="assets/images/docker-run3.png" alt="docker-run" />
 </div>
 
 Visit the AUTH url link and the server will redirect you to Spotify to autheticate. After authenticate, teh server will display **Authorization successful**, indicating that the Terraform provider can use the server.
