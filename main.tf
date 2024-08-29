@@ -4,7 +4,7 @@
 terraform {
   required_providers {
     spotify = {
-      version = "~> 0.2.6"
+      version = "~> 0.2.7"
       source  = "conradludgate/spotify"
     }
   }
@@ -26,8 +26,6 @@ resource "spotify_playlist" "playlist" {
     "4uOKFydzAejjSFqYbv1XPt", # Red Red Wine - UB40
     "5O4erNlJ74PIF6kGol1ZrC", # Could You Be Loved - Bob Marley and The Wailers
     "3VJTOIVyeGujUIo6P0DoTx", # Le rendez vous - L'Entourloop
-    "4JbMBbrm55qOW6lJwtKtfM", # Bob & Friends Over There - Ijahman Levi
-    ""
-
+    "4JbMBbrm55qOW6lJwtKtfM" # Bob & Friends Over There - Ijahman Levi
   ]
 }
