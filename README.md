@@ -139,3 +139,7 @@ Now to create the playlist we have to apply our Terrform configuration. Terrafor
 *In the image we can see how I already had the playlist made, and what I am doing is applying some changes.*
 
 Now we have our playlist in Spotify!
+
+<div align="center">
+    <img src="assets/images/playlist.png" alt="playlist-image" />
+</div>
